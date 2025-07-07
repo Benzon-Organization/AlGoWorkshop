@@ -11,12 +11,6 @@
   "contextSensitiveHelpUrl": "https://www.bosch-data.de",
   "logo": "./images/logo.png",
  "dependencies": [
-      {
-      "id": "f2af6661-946f-46c8-bea0-79a650703151",
-      "name": "BoSchData.branchCore",
-      "publisher": "BoSch Data GmbH",
-      "version": "25.0.0.0"
-    }
   ],
 
   "screenshots": [],
