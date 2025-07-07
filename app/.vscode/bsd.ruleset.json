@@ -1,0 +1,38 @@
+{
+    "name": "BoSch Data OnPrem Code Rules",
+    "description": "BoSch Data OnPrem Code Rules",
+    "rules": 
+    [
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "The ID range 'XXX' is not valid. It must be within the range allocated to the partner for AppSource, within the range '[1000000..75999999]' allocated to AppSource applications, and outside the range '[50000..99999]' allocated to per-tenant customizations."
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "The app.json file must specify an Azure Application Insights resource with the property 'applicationInsightsKey' for monitoring operations related to this extension. See https://docs.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview for additional information."
+        },
+        {
+            "id": "AL0667",
+            "action": "None",
+            "justification": "Extension' is being deprecated in the versions: '4.0' or greater. The Extension compilation target is being deprecated. Use Cloud instead. This warning will become an error in a future release."
+
+        },
+        {
+            "id": "AL0296",
+            "action": "None",
+            "justification": "The application object or method 'Create' has scope 'OnPrem' and cannot be used for 'Extension' development."            
+        },
+        {
+            "id": "AS0053",
+            "action": "None",
+            "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension.'"            
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "The name of FileMgt is not valid. The name of variables and parameters must be suffixed with the type or object name."            
+        }
+    ]
+}
